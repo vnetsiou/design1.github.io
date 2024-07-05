@@ -1,0 +1,558 @@
+﻿<html>
+  <head>
+    <title>My Web Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+ 
+
+    <div class="top-bar top-bar-sticky w-100 p-0">
+       <div class="top-bar-slider w-100 text-center">
+            <a href="#"><i class="fa-solid fa-truck"></i>  Free Shipping Worldwide</a>
+            <a href="#"><i class="fa-solid fa-heart"></i></i>  Fast & easy returns</a>
+            <a href="#"><i class="fa-solid fa-phone"></i>  24/7 phone service</a>
+        </div> 
+    </div>
+        
+
+    <div class="header header-sticky row row-cols-3 ">
+            <div class="d-lg-none" id="toggle-mobile-menu"><i class="fa-solid fa-bars"></i></div>
+        <div class="menu ">
+            <div class="menu-item has-children">
+                <a href="#">WOMEN <i class="fa-solid fa-chevron-down"></i></a>
+                
+                <div class="submenu row row-cols-1   row-cols-lg-5 align-items-start justify-content-between text-center">
+                
+                    <div class="submenu-item">
+                        <a href="#" class="submenu-title">Homepage</a>
+                        <a href="index.html"> Homepage 1</a>
+                        <a href="index2.html">Homepage Header Sticky</a>
+                        <a href="index3.html">Homepage 3</a>
+                        <a href="index4.html">Homepage 4</a>
+                        <a href="index5.html">Homepage 5</a>
+                        <br>
+                        <a href="#" class="submenu-title">Blog</a>
+                        <a href="blog.html"> Blog Listing 1</a>
+                        <a href="blog2.html">Blog Listing 2</a>
+                        <a href="blog3.html">Blog Listing 3</a>
+                        <Br>
+                        <a href="post.html"> Blog Post 1</a>
+                        <a href="post2.html">Blog Post 2</a>
+                        <a href="post3.html">Blog Post 3</a>
+                    </div>
+                    <div class="submenu-item ">
+                        <a href="#" class="submenu-title">Listing Page</a>
+                        <a href="shop.html">Listing 1</a>
+                        <a href="shop2.html">Listing 2</a>
+                        <a href="shop3.html">Listing 3</a>
+                        <a href="shop4.html">Listing 4</a>
+                        <a href="shop5.html">Listing 5</a>
+                        <br><br>
+                        <a href="#" class="submenu-title">Product Page</a>
+                        <a href="product.html">Product 1</a>
+                        <a href="product2.html">Product 2</a>
+                        <a href="product3.html">Product 3</a>
+                        <a href="product4.html">Product 4</a>
+                        <a href="product5.html">Product 5</a>
+                    </div>
+                    <div class="submenu-item">
+                        <a href="#" class="submenu-title">Account</a>
+                        <a href="#">Login</a>
+                        <a href="#">Account</a>
+                        <a href="#">Orders</a>
+                        <a href="#">Wishlist/Favorites</a>
+                        <a href="#">Forgot password</a>
+                        <br>
+                         <a href="#" class="submenu-title">Content</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Career Form</a>
+                        <a href="#">About Us</a>
+                        <a href="#">F.A.Q.s</a>
+                        <a href="#">Order Tracking</a>
+                    </div>
+                   
+                    <div class="submenu-item ">
+                        <img src="images/menu1.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <a href="#">MEN</a>
+            </div>
+            <div class="menu-item">
+                <a href="#">KIDS</a>
+            </div>
+        </div>
+        <img class="site-logo" src="images/logo.webp"/>
+
+        <div class="header-right">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a>
+            <a href="#" id="shopping-hover">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="20.5" r="1"/><circle cx="18" cy="20.5" r="1"/><path d="M2.5 2.5h3l2.7 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6l1.6-8.4H7.1"/></svg>
+                <div class="cart-items-no">3</div>    
+            </a>
+            
+        </div>
+    </div>
+
+    <div id="mini-cart" class="mini-cart-wrapper">
+        <div class="mini-cart-container">
+            <div><strong>MY CART </strong> <span>(3 items)</span> 
+            <span class="close-mini-cart"><i class="fa fa-close"></i></span>
+            </div>
+            <div class="divider"></div>
+
+            <div class="row row-cols-1 mini-cart-items">
+                <div class="col row row-cols-2 mini-cart-item">
+                    <img src="images/products/5_1.png"/>
+                    <div class="">
+                        <h5>Beige pleated skirt</h5>
+                        <p>M, Beige</p>
+                        <p>17.90$ x 2</p>
+                    </div>
+                </div>
+                 <div class="col row row-cols-2 mini-cart-item">
+                    <img src="images/products/5_1.png"/>
+                    <div class="">
+                        <h5>Beige pleated skirt</h5>
+                        <p>M, Beige</p>
+                        <p>17.90$ x 2</p>
+                    </div>
+                </div>
+                 <div class="col row row-cols-2 mini-cart-item">
+                    <img src="images/products/5_1.png"/>
+                    <div class="">
+                        <h5>Beige pleated skirt</h5>
+                        <p>M, Beige</p>
+                        <p>17.90$ x 2</p>
+                    </div>
+                </div>
+                <div class="col row row-cols-2 mini-cart-item">
+                    <img src="images/products/6_1.png"/>
+                    <div class="">
+                        <h5>Earthy Set</h5>
+                        <p>M, Beige</p>
+                        <p>57.90$</p>
+                    </div>
+                </div>
+                    <div class="col row row-cols-2 mini-cart-item">
+                    <img src="images/products/6_1.png"/>
+                    <div class="">
+                        <h5>Earthy Set</h5>
+                        <p>M, Beige</p>
+                        <p>57.90$</p>
+                    </div>
+                </div>
+    
+            </div>
+
+            <div class="mini-cart-totals">
+                    <div class="row row-cols-2 w-100">
+                        <div>Items Value</div>
+                        <div class="text-right">288.99$</div>
+                        <div>Discount</div>
+                        <div class="text-right">-80$</div>
+                        <div class="mini-cart-total">Total Price</div>
+                        <div class="mini-cart-total text-right">108.99$</div>
+                        <a href="#" class="button button-beige w-100 text-center m-2">Basket</a>
+
+                        <a href="#" class="button button-black w-100 text-center m-2">Checkout</a>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+
+        <section class="container widget widget-1">
+            <div class="swiper-container four">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img src="images/widget1/1.png" alt="slide 1">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img src="images/widget1/2.png" alt="slide 2">
+                        </div>
+                    </div>
+                     <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img src="images/widget1/3.png" alt="slide 1">
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img src="images/widget1/4.png" alt="slide 3">
+                        </div>
+                    </div>
+                   
+                   
+                </div>
+               <!-- <div class="swiper-pagination"></div> -->
+            </div>
+        </section>
+
+       <section class="container widget widget-5">
+                <div class="widget-header">
+                    <h3 class="widget-title">Explore Our Blog</h3>
+                    <p class="widget-description">Find out our most secret tips and tricks for your clothes!</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <a href="#" class="button button-beige">Explore</a>
+                </div>
+        </section>
+   
+
+        <section class="widget widget-4 widget-4-2">
+            <div class="widget-header">
+                <h3 class="widget-title">Featured Products</h3>
+                <p class="widget-description">Find out best selling products in amazing prices</p>
+            </div>
+            <div class="widget-4-slider">
+                
+                <div class="widget-4-item col">
+                    <div class="product-item">
+                        <a href="#">
+                            <div class="item-tag">SALE</div>
+                            <div class="image-wrapper">
+                                <img class="first-image" src="images/products/5_1.png" data-src="images/products/5_1.png" data-hover="images/products/5_2.png" />
+                                <div class="sizes">
+                                    <span>S</span>
+                                    <span>M</span>
+                                    <span>L</span>
+                                    <span>XL</span>
+                                </div>
+                            </div>
+                            <h5>ROYARTE</h5>
+                            <h4>Beige pleated skirt</h4>
+                            <div>
+                                17.90$  
+                                <span><del>19.90$</del></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="widget-4-item col">
+                    <div class="product-item">
+                        <a href="#">
+                            <div class="image-wrapper">
+                                <img class="first-image" src="images/products/6_1.png" data-src="images/products/6_1.png" data-hover="images/products/6_2.png" />
+                                <div class="sizes">
+                                    <span>S</span>
+                                    <span>M</span>
+                                    <span>XL</span>
+                                </div>
+                            </div>
+                            <h5>ROYARTE</h5>
+                            <h4>Earthy Set</h4>
+                            <div>
+                                57.90$  
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="widget-4-item col">
+                    <div class="product-item">
+                        <a href="#">
+                            <div class="item-tag">SALE</div>
+                            <div class="image-wrapper">
+                                <img class="first-image" src="images/products/7_1.png" data-src="images/products/7_1.png" data-hover="images/products/7_1.png" />
+                                <div class="sizes">
+                                    <span>S</span>
+                                    <span>M</span>
+                                    <span>L</span>
+                                    <span>XL</span>
+                                </div>
+                            </div>
+                            <h5>ROYARTE</h5>
+                            <h4>Cargo Set Pants</h4>
+                            <div>
+                                97.90$  
+                                <span><del>109.90$</del></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="widget-4-item col">
+                    <div class="product-item">
+                        <a href="#">
+                            <div class="image-wrapper">
+                                <img class="first-image" src="images/products/6_1.png" data-src="images/products/6_1.png" data-hover="images/products/6_2.png" />
+                                <div class="sizes">
+                                    <span>S</span>
+                                    <span>M</span>
+                                    <span>XL</span>
+                                </div>
+                            </div>
+                            <h5>ROYARTE</h5>
+                            <h4>Earthy Set</h4>
+                            <div>
+                                57.90$  
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="widget-4-item col">
+                    <div class="product-item">
+                        <a href="#">
+                            <div class="item-tag">SALE</div>
+                            <div class="image-wrapper">
+                                <img class="first-image" src="images/products/5_1.png" data-src="images/products/5_1.png" data-hover="images/products/5_2.png" />
+                                <div class="sizes">
+                                    <span>S</span>
+                                    <span>M</span>
+                                    <span>L</span>
+                                    <span>XL</span>
+                                </div>
+                            </div>
+                            <h5>ROYARTE</h5>
+                            <h4>Beige pleated skirt</h4>
+                            <div>
+                                17.90$  
+                                <span><del>19.90$</del></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="widget-4-item col">
+                    <div class="product-item">
+                        <a href="#">
+                            <div class="item-tag">SALE</div>
+                            <div class="image-wrapper">
+                                <img class="first-image" src="images/products/5_1.png" data-src="images/products/5_1.png" data-hover="images/products/5_2.png" />
+                                <div class="sizes">
+                                    <span>S</span>
+                                    <span>M</span>
+                                    <span>L</span>
+                                    <span>XL</span>
+                                </div>
+                            </div>
+                            <h5>ROYARTE</h5>
+                            <h4>Beige pleated skirt</h4>
+                            <div>
+                                17.90$  
+                                <span><del>19.90$</del></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="widget widget-5">
+            <div class="row row-cols-1  row-cols-xs-2 row-cols-md-3 align-items-center">
+                <div class="col widget-5-item">
+                    <div class="swiper-container three">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                 <div class="slider-image">
+                                    <img src="images/widget5/1.png" alt="slide 1">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                 <div class="slider-image">
+                                    <img src="images/widget5/2.png" alt="slide 1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col widget-5-item">
+                    <div class="swiper-container three-slick">
+                        <div class="swiper-container four">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="widget-header">
+                                        <h3 class="widget-title">Summer Breeze Outfit Set</h3>
+                                        <p class="widget-description">Find out our most secret tips and tricks for your clothes!</p>
+                                        <p>Get ready to turn heads with our "Summer Breeze" Outfit Set, a perfect blend of casual comfort and effortless style.</p>
+
+                                        <a href="#" class="button button-beige">Buy Now</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="widget-header">
+                                        <h3 class="widget-title">Urban Explorer Outfit Set</h3>
+                                        <p class="widget-description">Embrace the city vibes with our "Urban Explorer" Outfit Set. This set includes a versatile denim jacket, a sleek black bodysuit, high-waisted cargo pants, and white platform sneakers. Perfect for navigating city streets in style, this outfit combines practicality with a modern edge, making it ideal for weekend adventures or casual outings.</p>
+                                        <a href="#" class="button button-beige">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col widget-5-item">
+                    <div class="swiper-container three">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                 <div class="slider-image">
+                                    <img src="images/widget5/3.png" alt="slide 1">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                 <div class="slider-image">
+                                    <img src="images/widget5/4.png" alt="slide 1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+
+        
+        <section class="container widget widget-5">
+            <div class="row row-cols-1  row-cols-xs-1 row-cols-md-2 align-items-center">
+                <div class="widget-header">
+                    <h3 class="widget-title">Explore Our Blog</h3>
+                    <p class="widget-description">Find out our most secret tips and tricks for your clothes!</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+                    <a href="#" class="button button-beige">Buy Now</a>
+                </div>
+                <div class="col widget-5-item">
+                    <div class="wrap-image" style="background-image: url(images/widget5/2.png)"></div>
+                    <div class="wrap-image-2" style="background-image: url(images/widget5/2.png)"></div>
+                    <div class="wrap-image-3" style="background-image: url(images/widget5/2.png)"></div>
+                    <div class="wrap-image-4" style="background-image: url(images/widget5/2.png)"></div>
+                    <div class="wrap-image-5" style="background-image: url(images/widget5/2.png)"></div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="widget widget-3">
+            <div class="widget-header">
+                <h3 class="widget-title">Explore Our Blog</h3>
+                <p class="widget-description">Find out our most secret tips and tricks for your clothes!</p>
+            </div>
+
+            <div class="container">
+                <div class="row row-cols-2 row-cols-md-4">
+                    <div class="widget-3-item">
+                        <a href="#">
+                            <div class="widget-3-wrap">
+                                <img src="images/widget3/1.png"/>
+                            </div>
+                            <h4>Taking Care of Your Coats</h4>
+                            21 Jan 2022
+                        </a>
+                    </div>
+                    <div class="widget-3-item">
+                        <a href="#">
+                            <div class="widget-3-wrap">
+                                <img src="images/widget3/2.png"/>
+                            </div>
+                            <h4>How to: store your sweaters</h4>
+                            18 Sept 2021
+                        </a>
+                    </div>
+                    <div class="widget-3-item">
+                        <a href="#">
+                            <div class="widget-3-wrap">
+                                <img src="images/widget3/3.png"/>
+                            </div>
+                            <h4>Taking Care of Your Coats</h4>
+                            21 Nov 2020
+                        </a>
+                    </div>
+                    <div class="widget-3-item">
+                        <a href="#">
+                            <div class="widget-3-wrap">
+                                <img src="images/widget3/4.png"/>
+                            </div>
+                            <h4>How to: color block this fall</h4>
+                            18 Nov 2020
+                        </a>
+                    </div>
+                  
+                </div>
+                <a class="read-more" href="#">View all articles <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+
+
+    </div>
+
+    <section class="container-fluid widget widget-2 widget-2-2 m-0">
+        <div class="row row-cols-2 row-cols-md-5 ">
+            <div class="widget-2-item my-4">
+                <img src="images/ups/fastdeliveries.png"/>
+                <div>Fast deliveries 24/7</div>
+            </div>
+            <div class="widget-2-item my-4">
+                <img src="images/ups/klarna.png"/>
+                <div>Pay with Klarna</div>
+            </div>
+            <div class="widget-2-item my-4">
+                <img src="images/ups/return-box.png"/>
+                <div>Easy returns at no cost</div>
+            </div>
+            <div class="widget-2-item  my-4">
+                <img src="images/ups/24-hours.png"/>
+                <div>24/7 phone assistance</div>
+            </div>
+            <div class="widget-2-item my-4">
+                <img src="images/ups/klarna.png"/>
+                <div>Pay with Klarna</div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="row row-cols-2  row-cols-xs-2 row-cols-md-3 align-items-center justify-content-around text-center footer">
+                    <div class="footer-column row row-cols-1">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Retuns Policy</a>
+                        <a href="#">Shipping & Billing</a>
+                    </div>
+                    <div>
+                        <img class="site-logo" src="images/logo.webp"/>
+                        <div class="social-icons">
+                            <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-column row row-cols-1">
+                        <a href="#">About Us</a>
+                        <a href="#">Contact</a>
+                        <a href="#">F.A.Q.s</a>
+                        <a href="#">Careers</a>
+                    </div>
+            </div>
+            <div class="p-2 text-center bg-white">
+                Designed with <span><i class="fa fa-heart"> </i></span> by Vasiliki
+            </div>
+        </div>
+
+    </footer>
+    
+
+  </body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://kit.fontawesome.com/9b961d2bac.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="assets/js/sliders.js"></script>
+<script src="assets/js/app.js"></script>
