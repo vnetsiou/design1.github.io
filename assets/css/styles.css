@@ -30,11 +30,16 @@ body{
 .header .header-right{
     position: relative;
     text-align: right;
+
+}
+.header.header-2 .menu{
+    justify-content:center;
 }
 
-.header .header-right img{
+.header .header-right img {
     width: 25px;
-    margin: 8px;;
+    margin: 8px;
+    ;
 }
 .header.header-sticky{
     position: sticky;
@@ -218,14 +223,40 @@ body{
     color: black;
     text-decoration: none;
 }
-/* footer */
-/* widgets */
-.widget{
-    margin-bottom: 50px;
-    margin-top:50px;
-    padding-top:30px;
-    padding-bottom: 30px;
+
+footer .accordion{
+    flex-grow:2;
 }
+
+footer .accordion .accordion-item{
+    border:none;
+}
+
+
+footer .accordion .accordion-button {
+    background: none;
+    border: none;
+    box-shadow:none;
+}
+
+.footer-newsletter {
+    background-image: url('../../images/icons/footer-newsletter-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+    .footer-newsletter h6 {
+        font-family: DancingScript;
+        font-size:40px;
+
+    }
+    /* footer */
+    /* widgets */
+    .widget {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 .widget .widget-header{
     text-align: center;
     margin-bottom: 30px;
@@ -457,7 +488,7 @@ body{
 }
 .widget-5-item:hover .wrap-image-5 {
     transform: scale(.7);
-    z-index: 10;
+    z-index: 4;
 }
 
 .pagination{
@@ -478,11 +509,27 @@ body{
 .pagination a.active{
     font-weight: bold;    
 }
+.breadcrumb{
+    width:100%;
+    margin-top:30px;
+}
+.breadcrumb a{
+    text-decoration:none;
+    color:black;
+    margin-right:10px;
+}
+.breadcrumb a::after{
+    content: '|';
+    margin-left:10px;
+}
+    .breadcrumb span {
+        font-weight:bold ;
+    }
 
-@media screen and (max-width:768px) {
-    
-   
-    .widget {
+
+
+    @media screen and (max-width:768px) {
+        .widget {
         margin-bottom: 20px;
         margin-top: 20px;
     }
@@ -559,8 +606,17 @@ body{
     max-width: 300px;
     border-radius: 0;
 }
-@media screen and (max-width:992px) {
-    .close-mini-cart{
+
+.banner-image {
+    position:relative
+}
+.banner-image .banner-content{
+    position:absolute;
+    left:50px;
+    bottom:40px;
+}
+    @media screen and (max-width:992px) {
+        .close-mini-cart{
         display: block;
         float: right;
     }
@@ -621,4 +677,16 @@ body{
         position: relative;
         top: 0;
     }
+
+    .accordion-item  {
+        margin-top:20px;
+        text-align:left;
+    }
+    .accordion-item .accordion-body {
+        background: #fdf3ea;
+    }
+        .footer-newsletter{
+            text-align:center
+        }
+       
 }

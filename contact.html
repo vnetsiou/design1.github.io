@@ -1,0 +1,340 @@
+﻿<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--metadata-->
+    <title>Royarte</title>
+    <meta name="description" content="Ecommerce HTML Template">
+    <meta name="keywords" content="">
+
+
+    <!--css files-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!--topbar-->
+    <div class="top-bar top-bar-sticky w-100 p-0">
+        <div class="top-bar-slider w-100 text-center">
+            <a href="#"><i class="fa-solid fa-truck"></i>  Free Shipping Worldwide</a>
+            <a href="#"><i class="fa-solid fa-heart"></i></i>  Fast & easy returns</a>
+            <a href="#"><i class="fa-solid fa-phone"></i>  24/7 phone service</a>
+        </div>
+    </div>
+    <!--end topbar-->
+
+    <div class="header header-2 header-sticky row row-cols-3 ">
+        <!--header-->
+        <div class="d-lg-none" id="toggle-mobile-menu"><i class="fa-solid fa-bars"></i></div>
+        <div>
+            <img class="site-logo" src="images/logo.webp" />
+        </div>
+
+        <div class="menu ">
+            <div class="menu-item has-children">
+                <a href="#">WOMEN <i class="fa-solid fa-chevron-down"></i></a>
+
+                <div class="submenu row row-cols-1   row-cols-lg-5 align-items-start justify-content-between text-center">
+
+                    <div class="submenu-item">
+                        <a href="#" class="submenu-title">Homepage</a>
+                        <a href="index.html"> Homepage 1</a>
+                        <a href="index2.html">Homepage Header Sticky</a>
+                        <a href="index3.html">Homepage 3</a>
+                        <a href="index4.html">Homepage 4</a>
+                        <a href="index5.html">Homepage 5</a>
+                        <br>
+                        <a href="#" class="submenu-title">Blog</a>
+                        <a href="blog.html"> Blog Listing 1</a>
+                        <a href="blog2.html">Blog Listing 2</a>
+                        <a href="blog3.html">Blog Listing 3</a>
+                        <Br>
+                        <a href="post.html"> Blog Post 1</a>
+                        <a href="post2.html">Blog Post 2</a>
+                        <a href="post3.html">Blog Post 3</a>
+                    </div>
+                    <div class="submenu-item ">
+                        <a href="#" class="submenu-title">Listing Page</a>
+                        <a href="shop.html">Listing 1</a>
+                        <a href="shop2.html">Listing 2</a>
+                        <a href="shop3.html">Listing 3</a>
+                        <a href="shop4.html">Listing 4</a>
+                        <a href="shop5.html">Listing 5</a>
+                        <br><br>
+                        <a href="#" class="submenu-title">Product Page</a>
+                        <a href="product.html">Product 1</a>
+                        <a href="product2.html">Product 2</a>
+                        <a href="product3.html">Product 3</a>
+                        <a href="product4.html">Product 4</a>
+                        <a href="product5.html">Product 5</a>
+                    </div>
+                    <div class="submenu-item">
+                        <a href="#" class="submenu-title">Account</a>
+                        <a href="#">Login</a>
+                        <a href="#">Account</a>
+                        <a href="#">Orders</a>
+                        <a href="#">Wishlist/Favorites</a>
+                        <a href="#">Forgot password</a>
+                        <br>
+                        <a href="#" class="submenu-title">Content</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="#">Career Form</a>
+                        <a href="#">About Us</a>
+                        <a href="#">F.A.Q.s</a>
+                        <a href="#">Order Tracking</a>
+                    </div>
+
+                    <div class="submenu-item ">
+                        <img src="images/menu1.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <a href="#">MEN</a>
+            </div>
+            <div class="menu-item">
+                <a href="#">KIDS</a>
+            </div>
+        </div>
+
+        <div class="header-right">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a>
+            <a href="#" id="shopping-hover">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="20.5" r="1" /><circle cx="18" cy="20.5" r="1" /><path d="M2.5 2.5h3l2.7 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6l1.6-8.4H7.1" /></svg>
+                <div class="cart-items-no">3</div>
+            </a>
+
+        </div>
+    </div><!--end header-->
+
+    <div id="mini-cart" class="mini-cart-wrapper">
+        <!--mini cart-->
+        <div class="mini-cart-container">
+            <div>
+                <strong>MY CART </strong> <span>(3 items)</span>
+                <span class="close-mini-cart"><i class="fa fa-close"></i></span>
+            </div>
+            <div class="divider"></div>
+
+            <div class="row row-cols-1 mini-cart-items">
+                <div class="col row row-cols-2 mini-cart-item">
+                    <img src="images/products/5_1.png" />
+                    <div class="">
+                        <h5>Beige pleated skirt</h5>
+                        <p>M, Beige</p>
+                        <p>17.90$ x 2</p>
+                    </div>
+                </div>
+                <div class="col row row-cols-2 mini-cart-item">
+                    <img src="images/products/5_1.png" />
+                    <div class="">
+                        <h5>Beige pleated skirt</h5>
+                        <p>M, Beige</p>
+                        <p>17.90$ x 2</p>
+                    </div>
+                </div>
+                <div class="col row row-cols-2 mini-cart-item">
+                    <img src="images/products/5_1.png" />
+                    <div class="">
+                        <h5>Beige pleated skirt</h5>
+                        <p>M, Beige</p>
+                        <p>17.90$ x 2</p>
+                    </div>
+                </div>
+                <div class="col row row-cols-2 mini-cart-item">
+                    <img src="images/products/6_1.png" />
+                    <div class="">
+                        <h5>Earthy Set</h5>
+                        <p>M, Beige</p>
+                        <p>57.90$</p>
+                    </div>
+                </div>
+                <div class="col row row-cols-2 mini-cart-item">
+                    <img src="images/products/6_1.png" />
+                    <div class="">
+                        <h5>Earthy Set</h5>
+                        <p>M, Beige</p>
+                        <p>57.90$</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mini-cart-totals">
+                <div class="row row-cols-2 w-100">
+                    <div>Items Value</div>
+                    <div class="text-right">288.99$</div>
+                    <div>Discount</div>
+                    <div class="text-right">-80$</div>
+                    <div class="mini-cart-total">Total Price</div>
+                    <div class="mini-cart-total text-right">108.99$</div>
+                    <a href="#" class="button button-beige w-100 text-center m-2">Basket</a>
+
+                    <a href="#" class="button button-black w-100 text-center m-2">Checkout</a>
+                </div>
+            </div>
+
+        </div>
+    </div><!--end mini cart-->
+
+    <!--page content-->
+    <div class="container">
+
+        <div class="breadcrumb">
+            <a href="#">Home</a>
+            <span>Contact</span>
+        </div>
+     
+        <!--widget : simple text-->
+        <section class="widget widget-5">
+            <div class="widget-header">
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div>
+                        <h3 class="widget-title">Contact Us</h3>
+                        <p class="widget-description">Find out our most secret tips and tricks for your clothes!</p>
+                        <form class="form ">
+                            <div class="row row-cols-1">
+                                <div class="mb-2">
+                                    <input class="form-control" type="text" name="firstname" required placeholder="Your name" />
+                                </div>
+                                <div class="mb-2">
+                                    <input class="form-control" type="email" name="email" required placeholder="Your Email" />
+                                </div>
+                                <div class="mb-2">
+                                    <input class="form-control" type="tel" name="email" required placeholder="Your Phone" />
+                                </div>
+                                <div class="mb-2 ">
+                                    <textarea class="form-control"> </textarea>
+                                </div>
+                                <div class="">
+                                    <button class="button button-beige" type="submit">Send!</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div>
+                        <h6>Info</h6>
+                        <br />
+                        <p>Phone: 69XXXXXXXX</p>
+                        <p>Address: Stadiou 0, Athens</p>
+                        <p>11253, Greece</p>
+                        <br />
+                        <h6>Working hours</h6>
+                        <br />
+                        <p>Monday-Friday: 09:00 - 16:00 </p>
+                        <p>Staturday: 10:00 - 14:00 </p>
+                        <p>Sunday: closed</p>
+                    </div>
+
+
+                    <div style="overflow:hidden;max-width:100%;width:100%;height:300px;">
+                        <div id="g-mapdisplay" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=statue+of+liberty&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="google-map-html" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="enable-map-data">premium bootstrap themes</a>
+                        <style>
+                            #g-mapdisplay img {
+                                max-width: none !important;
+                                background: none !important;
+                                font-size: inherit;
+                                font-weight: inherit;
+                            }
+                        </style>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+    </div>
+
+
+    <!--footer-->
+    <footer>
+        <div class="container-fluid">
+            <div class="row row-cols-1  row-cols-xs-1 row-cols-md-4 align-items-center justify-content-around text-center footer accordion"  id="accordionExample">
+    
+                    <div class="accordion-item">
+                        <img class="site-logo" src="images/logo.webp" />
+                        <div class="social-icons">
+                            <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="accitem1">
+                            <button class="accordion-button d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Terms
+                            </button>
+                            <h6 class="d-none d-md-block">Terms</h6>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse row show" aria-labelledby="headingOne" data-bs-parent="#accitem1">
+                            <div class="accordion-body">
+                                <div ><a href="#">Privacy Policy</a></div>
+                                <div ><a href="#">Terms of Use</a></div>
+                                <div ><a href="#">Retuns Policy</a></div>
+                                <div ><a href="#">Shipping & Billing</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header d-md-none" id="accitem2">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                Company
+                            </button>
+                            <h6 class="d-none d-md-block">Company</h6>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accitem2">
+                            <div class="accordion-body">
+                                <div><a href="#">About Us</a></div>
+                                <div><a href="#">Contact</a></div>
+                                <div><a href="#">F.A.Q.s</a></div>
+                                <div ><a href="#">Careers</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header d-md-none" id="accitem3">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                Categories
+                            </button>
+                            <h6 class="d-none d-md-block">Categories</h6>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accitem3">
+                            <div class="accordion-body">
+                                <div><a href="#">Category 1</a></div>
+                                <div><a href="#">Category 2</a></div>
+                                <div><a href="#">Category 3</a></div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+
+
+            <div class="p-2 text-center bg-white">
+                Designed with <span><i class="fa fa-heart"> </i></span> by MsVai
+            </div>
+        </div>
+</footer>
+    <!--end footer-->
+
+
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://kit.fontawesome.com/9b961d2bac.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="assets/js/sliders.js"></script>
+<script src="assets/js/app.js"></script>
